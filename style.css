@@ -1,0 +1,32 @@
+html {
+  box-sizing: border-box;
+  font-family: Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body{
+	width:98%;
+	max-width: 60em;
+	margin: 0 auto;
+}
+main{
+	width: 69%;
+	float:left;
+}
+aside{
+	width: 30%;
+	float:right;
+}
+footer{
+	clear: both;
+}
+nav ul{
+	margin: 0;
+	padding: 0;
+}
+nav li{
+	display: inline;
+	list-style-type: none;
+	margin:0 10px 0 0;
+}
